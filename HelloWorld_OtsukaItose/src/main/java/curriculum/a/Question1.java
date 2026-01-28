@@ -5,14 +5,14 @@ public class Question1 {
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 
-		byte byteNum = 5;
-		short shortNum = 10;
-		int intNum = 100;
-		long longNum = 1000;
-		float floatNum = 1.2f;
-		double doubleNum = 1.23;
-		char letter = 'b';
-		String letters = " こんにちは ";
+		byte byteNum = 0;
+		short shortNum = 0;
+		int intNum = 0;
+		long longNum = 0L;
+		float floatNum = 0.0f;
+		double doubleNum = 0.0;
+		char letter = '\u0000';
+		String letters = null;
 		boolean isBoolean = false;
 
 		byteNum = 10;
