@@ -63,6 +63,7 @@ public class Question3 {
 			input = scanner.nextInt();
 		}
 		System.out.println("終了しました");
+		scanner.close();
 
 		for (int a = 1; a <= 9; a++) {
 			for (int b = 1; b <= 9; b++) {
@@ -82,19 +83,19 @@ public class Question3 {
 		for (String itemname : items) {
 			switch (itemname) {
 			case "パソコン":
-				System.out.println("パソコンの残り台数は" + stock + "台です");
+				System.out.println("パソコンの残り台数は" + (int) (Math.random() * 12) + "台です");
 				break;
 			case "冷蔵庫":
-				System.out.println("冷蔵庫の残り台数は" + stock + "台です");
+				System.out.println("冷蔵庫の残り台数は" + (int) (Math.random() * 12) + "台です");
 				break;
 			case "扇風機":
-				System.out.println("扇風機の残り台数は" + stock + "台です");
+				System.out.println("扇風機の残り台数は" + (int) (Math.random() * 12) + "台です");
 				break;
 			case "洗濯機":
-				System.out.println("洗濯機の残り台数は" + stock + "台です");
+				System.out.println("洗濯機の残り台数は" + (int) (Math.random() * 12) + "台です");
 				break;
 			case "加湿器":
-				System.out.println("加湿器の残り台数は" + stock + "台です");
+				System.out.println("加湿器の残り台数は" + (int) (Math.random() * 12) + "台です");
 				break;
 			case "テレビ":
 			case "ディスプレイ":
